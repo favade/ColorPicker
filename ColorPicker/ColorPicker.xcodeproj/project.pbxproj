@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359881052BA656C00047C17A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359881042BA656C00047C17A /* SliderView.swift */; };
+		359881092BA65F2B0047C17A /* ColorValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359881082BA65F2B0047C17A /* ColorValues.swift */; };
+		3598810B2BA663230047C17A /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598810A2BA663230047C17A /* ColorButton.swift */; };
+		3598810D2BA6642D0047C17A /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598810C2BA6642D0047C17A /* TitleText.swift */; };
 		35C955472BA2738200476C0C /* ColorPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C955462BA2738200476C0C /* ColorPickerApp.swift */; };
 		35C955492BA2738200476C0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C955482BA2738200476C0C /* ContentView.swift */; };
 		35C9554B2BA2738300476C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C9554A2BA2738300476C0C /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		359881042BA656C00047C17A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		359881082BA65F2B0047C17A /* ColorValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValues.swift; sourceTree = "<group>"; };
+		3598810A2BA663230047C17A /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		3598810C2BA6642D0047C17A /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		35C955432BA2738200476C0C /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C955462BA2738200476C0C /* ColorPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerApp.swift; sourceTree = "<group>"; };
 		35C955482BA2738200476C0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		359881022BA656470047C17A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				359881082BA65F2B0047C17A /* ColorValues.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		359881032BA656AF0047C17A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				359881042BA656C00047C17A /* SliderView.swift */,
+				3598810A2BA663230047C17A /* ColorButton.swift */,
+				3598810C2BA6642D0047C17A /* TitleText.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		35C9553A2BA2738200476C0C = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +77,8 @@
 		35C955452BA2738200476C0C /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				359881032BA656AF0047C17A /* Views */,
+				359881022BA656470047C17A /* Constants */,
 				35C955462BA2738200476C0C /* ColorPickerApp.swift */,
 				35C955482BA2738200476C0C /* ContentView.swift */,
 				35C9554A2BA2738300476C0C /* Assets.xcassets */,
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359881052BA656C00047C17A /* SliderView.swift in Sources */,
+				3598810D2BA6642D0047C17A /* TitleText.swift in Sources */,
 				35C955492BA2738200476C0C /* ContentView.swift in Sources */,
+				3598810B2BA663230047C17A /* ColorButton.swift in Sources */,
 				35C955472BA2738200476C0C /* ColorPickerApp.swift in Sources */,
+				359881092BA65F2B0047C17A /* ColorValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = HV2MSC339F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = HV2MSC339F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
