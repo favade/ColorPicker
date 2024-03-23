@@ -1,10 +1,3 @@
-//
-//  SliderView.swift
-//  ColorPicker
-//
-//  Created by Favour on 3/16/24.
-//
-
 import SwiftUI
 
 struct SliderView: View {
@@ -18,14 +11,16 @@ struct SliderView: View {
                 Slider(value: $color, in: 0...Double(ColorValues.Divider.maxNum))
                     .tint(sliderColor)
                 Text("\(Int(color.rounded()))")
-                    
+                
             }
         }
-
-        
     }
 }
 
 #Preview {
-    SliderView(color: Binding.constant(0.0), colorText: "Red", sliderColor: Color.red)
+    SliderView(
+        color: Binding.constant(0.0),
+        colorText: "Red",
+        sliderColor: Color.red
+    )
 }

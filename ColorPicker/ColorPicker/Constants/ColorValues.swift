@@ -1,19 +1,12 @@
-//
-//  ColorValues.swift
-//  ColorPicker
-//
-//  Created by Favour on 3/16/24.
-//
-
 import Foundation
 
 enum ColorValues {
+    
     enum Divider {
-        static let maxNum: Int = 255
+        static let maxNum = 255.0
     }
     
     enum Initial {
-        static let InitialColor = 0.0
+        static let color = 0.0
     }
 }
-
